@@ -2,7 +2,7 @@
 Based on [mhart/alpine-node](https://hub.docker.com/r/mhart/alpine-node/) minimal
 node.js built on Alpine Linux.
 
-We're installing npm packages one level above the app folder.
+We're installing npm packages one level above the `/src/app` folder.
 Modules will still be found but won't be overridden when mounting
 the project directory for development.
 
